@@ -1,6 +1,5 @@
 const countWords = (inputWords) => {
   return inputWords.reduce((acc, word) => {
-    console.log(acc);
     if (!acc[word]) {
       acc[word] = 1;
     } else {
